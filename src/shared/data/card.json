@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Тетрадь 12 лист кл. А5 бумага офсет с полями (Пресса)",
+		"price": 100,
+		"img": "https://img.freepik.com/free-photo/office-desktop-with-notebook_23-2148174154.jpg?t=st=1716791891~exp=1716795491~hmac=2b6b7cd608f024c51f971ba2f4a26ce468c3235a7f4dd3eda42f9e571468d8cc&w=740"
+	},
+	{
+		"title": "Ластик Pilot виниловый 42*18*11 мм, картонный держатель, белый",
+		"price": 50,
+		"img": "https://img.freepik.com/free-photo/colourful-sharpeners-erasers-high-view_23-2148362167.jpg?t=st=1716791949~exp=1716795549~hmac=78f3ab6e8c170e0681fe5d17cd6f504da8aa3948f9503df435cb0092f283f2ba&w=740"
+	},
+	{
+		"title": "Ластик Pilot виниловый 62*22*12 мм, картонный держатель, белый",
+		"price": 60,
+		"img": "https://img.freepik.com/free-psd/3d-rendering-back-school-icon_23-2149589349.jpg?t=st=1716791970~exp=1716795570~hmac=55fe6d2d64ee8b3b636d3a85b4ea8a82f04847a74ff8ef4808e04bb75701dc95&w=740"
+	},
+	{
+		"title": "Дырокол до 40л метал. Lаmark 'Mettallic', с линейкой цв. черный",
+		"price": 1250,
+		"img": "https://img.freepik.com/free-photo/black-stapler-orange-background_23-2147851013.jpg?t=st=1716792025~exp=1716795625~hmac=b504dd3adb2f0858eebc80136ac9bf670ae8251fda1ed61669c7874748be5ea7&w=740"
+	},
+	{
+		"title": "Степлер 24/6 до 20л металлический Attomex, сине-черный, с антистеплером",
+		"price": 270,
+		"img": "https://img.freepik.com/free-psd/3d-rendering-back-school-icon_23-2149589385.jpg?t=st=1716792062~exp=1716795662~hmac=d3096f01fb6677d9f448a2dc1ab899b35bd665206fe5fa843c325a173c4ef31e&w=740"
+	},
+	{
+		"title": "Степлер 24/6 до 20л Deli ассорти",
+		"price": 263,
+		"img": "https://img.freepik.com/free-photo/blue-stapler_1323-155.jpg?t=st=1716792081~exp=1716795681~hmac=a563e3c0002f8ceece87bed52b11d9082fe8a5987c48aabb8e9ad93c863bff27&w=740"
+	},
+	{
+		"title": "Степлер № 10 до 15л металлический, Attomex, черный с антистеплером",
+		"price": 102,
+		"img": "https://img.freepik.com/premium-photo/blue-stapler-staples_324894-158.jpg?w=740"
+	},
+	{
+		"title": "Ролик для факса 210*12",
+		"price": 115,
+		"img": "https://img.freepik.com/free-vector/3d-paper-roll-mockup_1017-9213.jpg?t=st=1716792137~exp=1716795737~hmac=3c89f94387da6f401f534284346e79c5cc51c8362f6427f8c01056178ce8518a&w=740"
+	},
+	{
+		"title": "Ролик для факса 216*30*12",
+		"price": 218,
+		"img": "https://img.freepik.com/free-vector/3d-paper-roll-mockup_1017-9213.jpg?t=st=1716792137~exp=1716795737~hmac=3c89f94387da6f401f534284346e79c5cc51c8362f6427f8c01056178ce8518a&w=740"
+	},
+	{
+		"title": "Тетрадь 12 лист кл. А5 бумага офсет с полями (Пресса)",
+		"price": 100,
+		"img": "https://img.freepik.com/free-photo/office-desktop-with-notebook_23-2148174154.jpg?t=st=1716791891~exp=1716795491~hmac=2b6b7cd608f024c51f971ba2f4a26ce468c3235a7f4dd3eda42f9e571468d8cc&w=740"
+	},
+	{
+		"title": "Ластик Pilot виниловый 42*18*11 мм, картонный держатель, белый",
+		"price": 50,
+		"img": "https://img.freepik.com/free-photo/colourful-sharpeners-erasers-high-view_23-2148362167.jpg?t=st=1716791949~exp=1716795549~hmac=78f3ab6e8c170e0681fe5d17cd6f504da8aa3948f9503df435cb0092f283f2ba&w=740"
+	},
+	{
+		"title": "Ластик Pilot виниловый 62*22*12 мм, картонный держатель, белый",
+		"price": 60,
+		"img": "https://img.freepik.com/free-psd/3d-rendering-back-school-icon_23-2149589349.jpg?t=st=1716791970~exp=1716795570~hmac=55fe6d2d64ee8b3b636d3a85b4ea8a82f04847a74ff8ef4808e04bb75701dc95&w=740"
+	},
+	{
+		"title": "Дырокол до 40л метал. Lаmark 'Mettallic', с линейкой цв. черный",
+		"price": 1250,
+		"img": "https://img.freepik.com/free-photo/black-stapler-orange-background_23-2147851013.jpg?t=st=1716792025~exp=1716795625~hmac=b504dd3adb2f0858eebc80136ac9bf670ae8251fda1ed61669c7874748be5ea7&w=740"
+	},
+	{
+		"title": "Степлер 24/6 до 20л металлический Attomex, сине-черный, с антистеплером",
+		"price": 270,
+		"img": "https://img.freepik.com/free-psd/3d-rendering-back-school-icon_23-2149589385.jpg?t=st=1716792062~exp=1716795662~hmac=d3096f01fb6677d9f448a2dc1ab899b35bd665206fe5fa843c325a173c4ef31e&w=740"
+	},
+	{
+		"title": "Степлер 24/6 до 20л Deli ассорти",
+		"price": 263,
+		"img": "https://img.freepik.com/free-photo/blue-stapler_1323-155.jpg?t=st=1716792081~exp=1716795681~hmac=a563e3c0002f8ceece87bed52b11d9082fe8a5987c48aabb8e9ad93c863bff27&w=740"
+	},
+	{
+		"title": "Степлер № 10 до 15л металлический, Attomex, черный с антистеплером",
+		"price": 102,
+		"img": "https://img.freepik.com/premium-photo/blue-stapler-staples_324894-158.jpg?w=740"
+	},
+	{
+		"title": "Ролик для факса 210*12",
+		"price": 115,
+		"img": "https://img.freepik.com/free-vector/3d-paper-roll-mockup_1017-9213.jpg?t=st=1716792137~exp=1716795737~hmac=3c89f94387da6f401f534284346e79c5cc51c8362f6427f8c01056178ce8518a&w=740"
+	},
+	{
+		"title": "Ролик для факса 216*30*12",
+		"price": 218,
+		"img": "https://img.freepik.com/free-vector/3d-paper-roll-mockup_1017-9213.jpg?t=st=1716792137~exp=1716795737~hmac=3c89f94387da6f401f534284346e79c5cc51c8362f6427f8c01056178ce8518a&w=740"
+	}
+]
