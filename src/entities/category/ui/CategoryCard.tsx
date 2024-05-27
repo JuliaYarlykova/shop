@@ -58,8 +58,9 @@ const CategoryCard: React.FC<ICategoryCard> = ({ name, data }) => {
 								pathname: '/cards',
 								query: { category: d },
 							}}
+							key={key}
 						>
-							<p key={key}>{d}</p>
+							<p>{d}</p>
 						</Link>
 					))}
 				</motion.div>

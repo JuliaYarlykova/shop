@@ -11,11 +11,10 @@ const Other = () => {
 							pathname: '/cards',
 							query: { category: d },
 						}}
+						key={key}
 					>
 						{' '}
-						<p key={key} className='mt-[10px]'>
-							{d}
-						</p>
+						<p className='mt-[10px]'>{d}</p>
 					</Link>
 				))}
 			</div>
