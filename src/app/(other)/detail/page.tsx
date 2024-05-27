@@ -6,6 +6,7 @@ import { Title } from '@/shared/ui/title'
 import { Description } from '@/widgets/desctiption'
 import { Photo } from '@/widgets/photo'
 import { useSearchParams } from 'next/navigation'
+import { Suspense } from 'react'
 
 export default function Details() {
 	const search = useSearchParams()
