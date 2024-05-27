@@ -4,15 +4,20 @@ import { ModalSearch } from '@/entities/modal'
 import basket from '@/shared/assets/svg/basket.svg'
 import logo from '@/shared/assets/svg/logo.svg'
 import user from '@/shared/assets/svg/user.svg'
+import { ForgetForm } from '@/widgets/forget'
 import { Search } from '@/widgets/search'
 import { SignInForm } from '@/widgets/signin'
+import { SignUpForm } from '@/widgets/signup'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Header = () => {
 	const [active, setActive] = useState(false)
 	const [activeM, setActiveM] = useState(false)
+	const [activeS, setActiveS] = useState(false)
+	const [activeF, setActiveF] = useState(false)
+	useEffect(() => {}, [activeM])
 	return (
 		<header className='container w-full bg-white'>
 			<div className='my-0 h-32 max-w-[1250px]  xl:mx-auto'>
@@ -44,19 +49,30 @@ const Header = () => {
 								className='hover:fill-[#0E3A20]'
 							/>
 						</Link>
-						{/* <span
+
+						<span
 							onClick={() => setActiveM(true)}
 							className='material-symbols-outlined cursor-pointer'
 						>
 							login
-						</span> */}
+						</span>
 					</div>
 				</div>
 				<div className='bottom-0 h-[1px] w-full bg-gray-300'></div>
 			</div>
 			<Search active={active} setActive={setActive} />
-			<SignInForm active={activeM} setActive={setActiveM} />
-			{/* <SignUpForm active={activeM} setActive={setActiveM} /> */}
+			<SignInForm
+				active={activeM}
+				setActive={setActiveM}
+				setActiveOther={setActiveS}
+				setActiveForget={setActiveF}
+			/>
+			<SignUpForm
+				active={activeS}
+				setActive={setActiveS}
+				setActiveOther={setActiveM}
+			/>
+			<ForgetForm active={activeF} setActive={setActiveF} />
 		</header>
 	)
 }

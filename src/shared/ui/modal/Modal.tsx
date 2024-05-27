@@ -13,7 +13,12 @@ type DialogProps = HDialogProps & {
 	title?: string
 }
 
-export const Dialog: React.FC<DialogProps> = ({ title, open, ...props }) => {
+export const Dialog: React.FC<DialogProps> = ({
+	title,
+	open,
+	onClose,
+	...props
+}) => {
 	return (
 		<Transition
 			appear
@@ -25,7 +30,12 @@ export const Dialog: React.FC<DialogProps> = ({ title, open, ...props }) => {
 			leaveFrom='opacity-100'
 			leaveTo='opacity-0'
 		>
-			<HDialog as='div' className='relative z-10 focus:outline-none' {...props}>
+			<HDialog
+				as='div'
+				className='relative z-10 focus:outline-none'
+				onClose={onClose}
+				{...props}
+			>
 				<div className='fixed inset-0 z-10 grid size-full place-items-center overflow-y-auto bg-black/80  p-8'>
 					<TransitionChild
 						enter='ease-out duration-200'

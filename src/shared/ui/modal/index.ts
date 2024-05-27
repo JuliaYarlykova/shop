@@ -1,3 +1,3 @@
-import { Dialog } from '@headlessui/react'
+import { Dialog } from './Modal'
 
 export { Dialog }

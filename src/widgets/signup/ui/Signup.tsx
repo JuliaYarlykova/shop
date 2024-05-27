@@ -4,14 +4,13 @@ import { Button } from '@/shared/ui/button'
 import { InputForm } from '@/shared/ui/input-form'
 import { Dialog } from '@/shared/ui/modal'
 
-import Link from 'next/link'
-
-interface IForm {
+export interface IForm {
 	active: boolean
 	setActive: React.Dispatch<React.SetStateAction<boolean>>
+	setActiveOther: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const SignUpForm: React.FC<IForm> = ({ active, setActive }) => {
+const SignUpForm: React.FC<IForm> = ({ active, setActive, setActiveOther }) => {
 	return (
 		<Dialog title='Регистрация' open={active} onClose={setActive}>
 			<InputForm title='Email' />
@@ -23,9 +22,15 @@ const SignUpForm: React.FC<IForm> = ({ active, setActive }) => {
 			</p>
 			<p className='mt-4 self-center text-base font-normal'>
 				Зарегистрированы?{' '}
-				<Link href={'/'} className='text-[#2285FB]'>
+				<span
+					onClick={() => {
+						setActiveOther(true)
+						setActive(false)
+					}}
+					className='cursor-pointer text-[#0E3A20]'
+				>
 					Войти
-				</Link>
+				</span>
 			</p>
 			<Button title='Зарегистрироваться' />
 		</Dialog>
